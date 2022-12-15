@@ -26,6 +26,14 @@ const router = createBrowserRouter([
       </MainWrapper>
     ),
   },
+  // {
+  //   path: "/about",
+  //   element: (
+  //     <MainWrapper>
+  //       <About />
+  //     </MainWrapper>
+  //   ),
+  // },
   {
     path: "/product/:productId",
     element: <ProductDetail />,

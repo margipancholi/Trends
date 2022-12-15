@@ -20,12 +20,13 @@ const product = {
   imageAlt:
     "Model wearing light green backpack with black canvas straps and front zipper pouch.",
   breadcrumbs: [
-    { id: 1, name: "Travel", href: "#" },
-    { id: 2, name: "Bags", href: "#" },
+    { id: 1, name: "Days", href: "#" },
+    { id: 2, name: "Weeks", href: "#" },
+    { id: 3, name: "Months", href: "#" },
   ],
   sizes: [
-    { name: "18L", description: "Perfect for a reasonable amount of snacks." },
-    { name: "20L", description: "Enough room for a serious amount of snacks." },
+    { name: "4bhk 1.5bath", description: "Perfect for a pre-wedding." },
+    { name: "3bhk 1.5bath", description: "Enough room for a family." },
   ],
 };
 const reviews = { average: 4, totalCount: 1624 };
@@ -150,8 +151,17 @@ export default function ProductDetail() {
                 aria-hidden="true"
               />
               <p className="ml-2 text-sm text-gray-500">
-                In stock and ready to ship
-              </p>
+                 Ready for rent
+              </p>            
+            </div>
+            <div className="mt-6 flex items-center">
+              <CheckIcon
+                className="h-5 w-5 flex-shrink-0 text-green-500"
+                aria-hidden="true"
+              />
+              <p className="ml-2 text-sm text-gray-500">
+                 Available for pre-wedding shoots
+              </p>            
             </div>
           </section>
         </div>
@@ -179,7 +189,7 @@ export default function ProductDetail() {
                 {/* Size selector */}
                 <RadioGroup value={selectedSize} onChange={setSelectedSize}>
                   <RadioGroup.Label className="block text-sm font-medium text-gray-700">
-                    Size
+                    Availability
                   </RadioGroup.Label>
                   <div className="mt-1 grid grid-cols-1 gap-4 sm:grid-cols-2">
                     {product.sizes.map((size) => (
@@ -226,33 +236,16 @@ export default function ProductDetail() {
                 </RadioGroup>
               </div>
               <div className="mt-4">
-                <a
-                  href="#"
-                  className="group inline-flex text-sm text-gray-500 hover:text-gray-700"
-                >
-                  <span>What size should I buy?</span>
-                  <QuestionMarkCircleIcon
-                    className="ml-2 h-5 w-5 flex-shrink-0 text-gray-400 group-hover:text-gray-500"
-                    aria-hidden="true"
-                  />
-                </a>
+               
               </div>
               <div className="mt-10">
-                <button
-                  type="submit"
-                  className="flex w-full items-center justify-center rounded-md border border-transparent bg-indigo-600 py-3 px-8 text-base font-medium text-white hover:bg-indigo-700 focus:outline-none focus:ring-2 focus:ring-indigo-500 focus:ring-offset-2 focus:ring-offset-gray-50"
-                >
-                  Add to bag
-                </button>
+               
               </div>
               <div className="mt-6 text-center">
                 <a href="#" className="group inline-flex text-base font-medium">
-                  <ShieldCheckIcon
-                    className="mr-2 h-6 w-6 flex-shrink-0 text-gray-400 group-hover:text-gray-500"
-                    aria-hidden="true"
-                  />
+                  
                   <span className="text-gray-500 hover:text-gray-700">
-                    Lifetime Guarantee
+                    For booking Contact no: +123456789 
                   </span>
                 </a>
               </div>
