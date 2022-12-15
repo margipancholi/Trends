@@ -3,105 +3,105 @@ import { Outlet, Link } from "react-router-dom";
 export const products = [
   {
     id: 1,
-    name: "Jackson villa",
+    name: "Jackson Villa",
     href: "#",
-    price: "$256",
+    price: "$20056",
     description:
-      "Get the full lineup of our Basic Tees. Have a fresh shirt all week, and an extra for laundry day.",
-    options: "8 colors",
+      "Jackson Villa Blue Pearl with Swimming Pool",
+    options: "days , week and month",
     imageSrc:
       "https://images.unsplash.com/photo-1580587771525-78b9dba3b914?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80",
     imageAlt:
-      "Eight shirts arranged on table in black, olive, grey, blue, white, red, mustard, and green.",
+      "Jackson villa",
   },
   {
     id: 2,
-    name: "Basic Tee",
+    name: "Elisn",
     href: "#",
-    price: "$32",
+    price: "$20100",
     description:
-      "Look like a visionary CEO and wear the same black t-shirt every day.",
-    options: "Black",
+      "Open environment concept with garden view",
+    options: "days , week and month",
     imageSrc:
       "https://images.unsplash.com/photo-1592595896551-12b371d546d5?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
-    imageAlt: "Front of plain black t-shirt.",
+    imageAlt: "Elisn",
   },
   {
     id: 3,
-    name: "Basic Tee 8-Pack",
+    name: "Orcio",
     href: "#",
-    price: "$256",
+    price: "$20206",
     description:
-      "Get the full lineup of our Basic Tees. Have a fresh shirt all week, and an extra for laundry day.",
-    options: "8 colors",
+      "Open environment with street view",
+    options: "days , week and month",
     imageSrc:
       "https://images.unsplash.com/photo-1558036117-15d82a90b9b1?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
     imageAlt:
-      "Eight shirts arranged on table in black, olive, grey, blue, white, red, mustard, and green.",
+      "Orcio",
   },
   {
     id: 4,
-    name: "Basic Tee",
+    name: "Felice",
     href: "#",
-    price: "$32",
+    price: "$30020",
     description:
-      "Look like a visionary CEO and wear the same black t-shirt every day.",
-    options: "Black",
+      "Grand villa that has huge swimming pool with clear sky view",
+    options: "days , week and month",
     imageSrc:
       "https://images.unsplash.com/photo-1564013799919-ab600027ffc6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
-    imageAlt: "Front of plain black t-shirt.",
+    imageAlt: "villa",
   },
   {
     id: 5,
-    name: "Basic Tee 8-Pack",
+    name: "Pratello",
     href: "#",
-    price: "$256",
+    price: "$18056",
     description:
-      "Get the full lineup of our Basic Tees. Have a fresh shirt all week, and an extra for laundry day.",
-    options: "8 colors",
+      "Single flat open house in the middle of a forest",
+    options: "days , week and month",
     imageSrc:
       "https://images.unsplash.com/photo-1512917774080-9991f1c4c750?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
     imageAlt:
-      "Eight shirts arranged on table in black, olive, grey, blue, white, red, mustard, and green.",
+      "villa",
   },
   {
     id: 6,
-    name: "Basic Tee",
+    name: "Ottopini",
     href: "#",
-    price: "$32",
+    price: "$10202",
     description:
-      "Look like a visionary CEO and wear the same black t-shirt every day.",
-    options: "Black",
+      "Enjoy the fresh sunlight with the world's rarest natural views ",
+    options: "days , week and month",
     imageSrc:
       "https://images.unsplash.com/photo-1570129477492-45c003edd2be?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
-    imageAlt: "Front of plain black t-shirt.",
+    imageAlt: "House",
   },
   {
     id: 7,
-    name: "Basic Tee 8-Pack",
+    name: "Merelli",
     href: "#",
-    price: "$256",
+    price: "$16256",
     description:
-      "Get the full lineup of our Basic Tees. Have a fresh shirt all week, and an extra for laundry day.",
-    options: "8 colors",
+      "Merelli farmhouse surrounded by an olive grove and expanses of golden wheat ",
+    options: "days , week and month",
     imageSrc:
       "https://images.unsplash.com/photo-1598228723793-52759bba239c?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1074&q=80",
     imageAlt:
-      "Eight shirts arranged on table in black, olive, grey, blue, white, red, mustard, and green.",
+      "House",
   },
   {
     id: 8,
-    name: "Basic Tee",
+    name: "Pinella",
     href: "#",
-    price: "$32",
+    price: "$19932",
     description:
-      "Look like a visionary CEO and wear the same black t-shirt every day.",
-    options: "Black",
+      "Pinella covers about 30 hectares divided between the olive grove and a thick wooded area composed of oaks and holm oaks and dotted with footpaths",
+    options: "days , week and month",
     imageSrc:
       "https://images.unsplash.com/photo-1605276374104-dee2a0ed3cd6?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1170&q=80",
-    imageAlt: "Front of plain black t-shirt.",
+    imageAlt: "House",
   },
-  // More products...
+ 
 ];
 
 export default function Products() {
