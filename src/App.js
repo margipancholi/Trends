@@ -13,7 +13,6 @@ const router = createBrowserRouter([
     element: (
       <>
         <Hero />
-        <Products />
         <Footer />
       </>
     ),
@@ -26,16 +25,18 @@ const router = createBrowserRouter([
       </MainWrapper>
     ),
   },
-  // {
-  //   path: "/about",
-  //   element: (
-  //     <MainWrapper>
-  //       <About />
-  //     </MainWrapper>
-  //   ),
-  // },
   {
-    path: "/product/:productId",
+    path: "/villas",
+    element: (
+      <>
+      <Hero />
+      <Products />
+        <Footer />
+        </>
+    ),
+  },
+  {
+    path: "/villas/product/:productId",
     element: <ProductDetail />,
   },
 ]);

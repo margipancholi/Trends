@@ -1,10 +1,10 @@
 import React from "react";
 const people = [
   {
-    name: "Lindsay Walton",
-    role: "Front-end Developer",
+    name: "Margi Pancholi, Jil Mehta , Kunal Patel",
+    role: "Full-stack Developer",
     imageUrl:
-      "https://images.unsplash.com/photo-1517841905240-472988babdf9?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=facearea&facepad=8&w=1024&h=1024&q=80",
+      "https://images.unsplash.com/photo-1521737604893-d14cc237f11d?ixlib=rb-4.0.3&ixid=MnwxMjA3fDB8MHxwaG90by1wYWdlfHx8fGVufDB8fHx8&auto=format&fit=crop&w=1184&q=80",
     twitterUrl: "#",
     linkedinUrl: "#",
   },
@@ -21,8 +21,7 @@ export default function About() {
               Our Team
             </h2>
             <p className="text-xl text-gray-500">
-              Odio nisi, lectus dis nulla. Ultrices maecenas vitae rutrum dolor
-              ultricies donec risus sodales. Tempus quis et.
+             This is team CodeX. 
             </p>
           </div>
           <ul
@@ -84,10 +83,12 @@ export default function About() {
                       </li>
                     </ul>
                   </div>
+                  
                 </div>
               </li>
             ))}
           </ul>
+          
         </div>
       </div>
     </div>

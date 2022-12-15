@@ -10,15 +10,15 @@ import { ShieldCheckIcon } from "@heroicons/react/24/outline";
 import { products } from "./Products";
 
 const product = {
-  name: "Everyday Ruck Snack",
+  name: "Everyday ",
   href: "#",
-  price: "$220",
+  price: "$20020",
   description:
-    "Don't compromise on snack-carrying capacity with this lightweight and spacious bag. The drawstring top keeps all your favorite chips, crisps, fries, biscuits, crackers, and cookies secure.",
+    "KIVIJI",
   imageSrc:
     "https://tailwindui.com/img/ecommerce-images/product-page-04-featured-product-shot.jpg",
   imageAlt:
-    "Model wearing light green backpack with black canvas straps and front zipper pouch.",
+    "BH",
   breadcrumbs: [
     { id: 1, name: "Days", href: "#" },
     { id: 2, name: "Weeks", href: "#" },
@@ -39,16 +39,16 @@ export default function ProductDetail() {
   const [selectedSize, setSelectedSize] = useState(products);
   const [myProduct, setMyProduct] = useState({
     id: 1,
-    name: "Basic Tee 8-Pack",
+    name: "",
     href: "#",
-    price: "$256",
+    price: "$25006",
     description:
-      "Get the full lineup of our Basic Tees. Have a fresh shirt all week, and an extra for laundry day.",
-    options: "8 colors",
+      "day",
+    options: "",
     imageSrc:
       "https://tailwindui.com/img/ecommerce-images/category-page-02-image-card-01.jpg",
     imageAlt:
-      "Eight shirts arranged on table in black, olive, grey, blue, white, red, mustard, and green.",
+      "",
   });
 
   const matches = useMatches();

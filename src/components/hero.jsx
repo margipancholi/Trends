@@ -124,32 +124,16 @@ export default function Hero() {
             
 
             <Link to="/">Home</Link>
+            <Link to="/villas">Villas</Link>
+               
+              <Link to="/about">About</Link>
+             
                {/* <a
                 href="#"
                 className="text-base font-medium text-gray-500 hover:text-gray-900"
               >
-                Home
-              </a> */}
-              {/* <a
-                href="#"
-                className="text-base font-medium text-gray-500 hover:text-gray-900"
-              >
-                Villas
-              </a> */}
-              <Link to="/about">About</Link>
-              {/* <a
-                href="/about"
-                className="text-base font-medium text-gray-500 hover:text-gray-900"
-              >
-                <Link to="/about">About us</Link>
-              </a> */}
-
-              {/* <a
-                href="#"
-                className="text-base font-medium text-gray-500 hover:text-gray-900"
-              >
                 Contact us
-              </a> */}
+              </a>  */}
 
              
             </Popover.Group>
